@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image:  summaryexperts/flask-app:0.0.1
+        image:  bitandocker/flask-app:0.0.1
         ports:
         - containerPort: 5000
